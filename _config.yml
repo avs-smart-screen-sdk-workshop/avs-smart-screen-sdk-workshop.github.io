@@ -1,6 +1,6 @@
 ---
 exclude: ['README.markdown']
 permalink: ':title'
-highlighter: 'pygments'
+highlighter: 'rouge'
 safe: false
 title: 'AVS Workshop @ reInvent 2019'
