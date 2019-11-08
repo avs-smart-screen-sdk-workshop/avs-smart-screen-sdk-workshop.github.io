@@ -1,0 +1,33 @@
+/*h3.intro{
+	color: red;
+}
+
+*/
+
+h3.verify{
+	color: #fff;
+	background-color: green;
+	padding: 5px;
+}
+
+h3.steps{
+	text-decoration: underline;
+	
+}
+
+h4.tab{
+	background-color: #d3d3d3;
+	display: inline;
+	padding: 5px;
+}
+
+img{
+	width: 600px;
+}
+
+nav#sidebar{
+	width: 280px;
+}
+section#content{
+	padding-left: 300px;
+}
