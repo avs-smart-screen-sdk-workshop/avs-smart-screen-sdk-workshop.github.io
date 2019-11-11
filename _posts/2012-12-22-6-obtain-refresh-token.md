@@ -18,7 +18,7 @@ Wait for the sample app to display a message like the one in the picture below (
 
 ![code](../assets/code_circle.png)
 
- 1. Use a browser to navigate to [amazon.com/us/code](https://amazon.com/us/code)   
+ 1. Use any browser (does NOT have to be on the Pi) to navigate to [amazon.com/us/code](https://amazon.com/us/code)   
  2. Authenticate using your Amazon user credentials.  If you aren't able to log in - try deleting all cookies or open a new tab in "guest mode" browser, then go to [amazon.com/us/code](https://amazon.com/us/code).  You can also just go to the link from your phone, laptop, or any connected device, and it should work.
  3. Enter the code specified in the message from sample app.  
  4. Select “Allow”.  
@@ -27,7 +27,7 @@ Wait for the sample app to display a message like the one in the picture below (
 
 Your raspberry pi is now ready to use the sample app. The next time you start the sample app, you will not need to go through the authorization process.
 
-Now, you'll need to open a browser to add a visual interface to your prototype.  Open a new chromium tab to the following URL: 
+Now, since we are building the Smart Screen SDK, you'll need to open a browser to use the visual interface for your prototype.  Open the Chromium browser and then navigate to the following URL: 
 `file:///home/pi/sdk-folder/ss-build/modules/GUI/index.html?insecure=1`  
 
 Note, this should autocomplete in your browser when you start typing - it's also in the bookmarks as "Alexa Home Screen".

@@ -8,7 +8,7 @@ layout: nil
 {:.steps}
 ### Interact with Your Prototype
 
-Say "Alexa" into the microphone on your Raspberry Pi to trigger the **Wake Word Engine**.  Since you are using a single microphone in a noisy environment, you may want to speak closely into your microphone to ensure your voice is heard clearly.  You should see a blue light on the bottom of your screen, indicating the wake word was recognized.  Then say "tell me a joke." If Alexa responds, congratulations!  You have a working prototype.  
+Say "Alexa" into the microphone on your Raspberry Pi to trigger the **Wake Word Engine**.  Since you are using a single microphone in a noisy environment, you may want to speak closely into your microphone (within a few inches) to ensure your voice is heard clearly.  You should see a blue light on the bottom of your screen, indicating the wake word was recognized.  Then say "tell me a joke." If Alexa responds (with both audio and visuals), congratulations!  You have a working prototype.  
 
 If you cannot hear Alexa's response, ensure your speaker/earbuds are turned on and plugged in to your Raspberry Pi's 3.5mm audio jack.  Check that your audio output on your Pi is set to **Analog** by right-clicking on the speaker icon in the top right corner of the screen.
 
@@ -17,11 +17,11 @@ Try the following interactions, and note how the screen allows for Alexa to prov
 
 * Say "Alexa", then ask "What's the weather in Las Vegas?"  Note how instead of just hearing today's weather over the speaker, you also get a 5 day forecast visually as a bonus!
 
-* Say "Alexa", then say "Play Katy Perry on TuneIn."  You get album art and transport controls (try clicking "next"!)
+* Say "Alexa", then say "Play Katy Perry on TuneIn."  You get album art and transport controls (try clicking "next" or "pause")!
 
 * Say "Alexa", then say "Add Milk, Eggs, Bread and Orange Juice to my shopping list."  You get a visual confirmation of how your list is shaping up, and if you fill up your list you can browse by using the scroll wheel (or if you had a touchscreen, a swipe)
 
-* Say "Alexa", then say "Who is Angela Merkel?"  Wikipedia provides a nice picture for your screen and some extra stats.  A picture is worth a thousand words!
+* Say "Alexa", then say "How tall is Mount Everest?"  Wikipedia provides a nice picture for your screen and some extra stats.  A picture is worth a thousand words!
 
 ### Try a Multi-Turn interaction
 
@@ -35,4 +35,4 @@ Multi-turn interactions can feel like a more natural method of communication, si
 
 * Say "Alexa, Wikipedia" - you'll have the option of looking up any subject without having to speak the wake word before the subject.
 * Say "Alexa, let's chat" to initiate a conversation with a chat bot!
-* Say "Alexa, play Yes Sire" to play a medieval-themed game using your voice.
+* Say "Alexa, play Jeopardy" to play a the popular TV show using your voice, but with the added visuals to provide a more authentic experience!
