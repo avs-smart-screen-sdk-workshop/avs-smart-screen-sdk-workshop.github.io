@@ -11,11 +11,11 @@ After you've created an Amazon developer account, you'll need to create a produc
 
 Log in to [developer.amazon.com](https://developer.amazon.com/login.html).  You should be in the Dashboard by default - click the **Alexa** button on the screen, then **Build Alexa Devices** and then finally **AVS Console**. the global navigation to start building products with Alexa built-in.  
 
-![code](../assets/1-devportal-alexa-landing.png)
+![code](../assets/1-devportal-landing.png)
 
-![code](../assets/1-devportal-alexa-buildalexadevices.png)
+![code](../assets/1-devportal-buildalexadevices.png)
 
-![code](../assets/1-devportal-alexa-avsconsole.png)
+![code](../assets/1-devportal-avsconsole.png)
 
 If you are having trouble, try this direct link:  [https://developer.amazon.com/alexa/console/avs/welcome](https://developer.amazon.com/alexa/console/avs/welcome)
 
