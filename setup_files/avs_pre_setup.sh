@@ -49,7 +49,7 @@ tar xzf /home/pi/Downloads/websocketpp-0.8.1.tar.gz
 sudo apt-get -y install nodejs npm
 sudo npm install -g npm@latest
 cd /home/pi/iot
-wget https://avs-dvk-workshop.github.io/setup_files/root-ca.pem.crt
+wget https://avs-smart-screen-sdk-workshop.github.io/setup_files/root-ca.pem.crt
 npm install aws-iot-device-sdk
 npm install onoff
 
@@ -71,13 +71,16 @@ pip install commentjson
 cd /home/pi/sdk-folder/sdk-source
 git clone --single-branch --branch v1.15 git://github.com/alexa/avs-device-sdk.git
 
-#get Medici
-#wget Medici
+#get Smart Screen SDK
 cd /home/pi/sdk-folder
-unzip ~/Downloads/Medici.zip
+unzip ~/Documents/ss-sdk-source_11019_with_CR-15234467_patch_and_buster_patch.tar.gz
+
+#get APL core
+cd /home/pi/sdk-folder
+git clone https://github.com/alexa/apl-core-library.git
 
 #grab install and run scripts
 cd /home/pi
-wget https://avs-dvk-workshop.github.io/setup_files/avs_install.sh
-wget https://avs-dvk-workshop.github.io/setup_files/avs_run.sh
+wget https://avs-smart-screen-sdk-workshop.github.io/setup_files/avs_install.sh
+wget https://avs-smart-screen-sdk-workshop.github.io/setup_files/avs_run.sh
 chmod u+x avs_install.sh avs_run.sh

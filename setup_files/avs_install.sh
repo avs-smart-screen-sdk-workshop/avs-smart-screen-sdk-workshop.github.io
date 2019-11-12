@@ -11,11 +11,11 @@ cd /home/pi/sdk-folder/third-party/alexa-rpi/bin/
 ./license.sh
 
 #compile APLCoreEngine
-cd /home/pi/sdk-folder/APLCoreEngine
-mkdir build
+cd /home/pi/sdk-folder/apl-core-library
+mkdir -p build
 cd build
 cmake ..
-make
+make -j2
 
 #compile sdk
 cd /home/pi/sdk-folder/sdk-build
@@ -44,10 +44,10 @@ cmake -DCMAKE_PREFIX_PATH=$HOME/sdk-folder/sdk-install \
 -DPORTAUDIO=ON -DPORTAUDIO_LIB_PATH=$HOME/sdk-folder/third-party/portaudio/lib/.libs/libportaudio.a \
 -DPORTAUDIO_INCLUDE_DIR=$HOME/sdk-folder/third-party/portaudio/include/ \
 -DAPL_CORE=ON \
--DAPLCORE_INCLUDE_DIR=$HOME/sdk-folder/APLCoreEngine/aplcore/include \
--DAPLCORE_LIB_DIR=$HOME/sdk-folder/APLCoreEngine/build/aplcore \
--DYOGA_INCLUDE_DIR=$HOME/sdk-folder/APLCoreEngine/build/yoga-prefix/src/yoga \
--DYOGA_LIB_DIR=$HOME/sdk-folder/APLCoreEngine/build/lib \
+-DAPLCORE_INCLUDE_DIR=$HOME/sdk-folder/apl-core-library/aplcore/include \
+-DAPLCORE_LIB_DIR=$HOME/sdk-folder/apl-core-library/build/aplcore \
+-DYOGA_INCLUDE_DIR=$HOME/sdk-folder/apl-core-library/build/yoga-prefix/src/yoga \
+-DYOGA_LIB_DIR=$HOME/sdk-folder/apl-core-library/build/lib \
  ../Alexa-smart-screen-sdk-for-linux
 make -j2
 
