@@ -1,5 +1,5 @@
 ---
-title: '6. Authorize your Device'
+title: '4. Authorize your Device'
 
 
 layout: nil

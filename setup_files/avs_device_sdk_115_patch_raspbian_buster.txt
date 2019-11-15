@@ -1,0 +1,14 @@
+diff --git a/Integration/test/CMakeLists.txt b/Integration/test/CMakeLists.txt
+index 860abd2..c7c638f 100644
+--- a/Integration/test/CMakeLists.txt
++++ b/Integration/test/CMakeLists.txt
+@@ -87,6 +87,9 @@ if(BUILD_TESTING)
+         add_executable(${testName} ${testSourceFile})
+         target_include_directories(${testName} PUBLIC "${INCLUDE_PATH}")
+         target_link_libraries(${testName} "${LINK_PATH}")
++        if (${CMAKE_SYSTEM_NAME} MATCHES "Linux")
++            target_link_libraries(${testName} atomic)
++        endif()
+         add_test(NAME ${testName}
+             COMMAND ${testName} ${SDK_CONFIG_FILE_TARGET} ${INTEGRATION_INPUTS}
+             CONFIGURATIONS Integration)

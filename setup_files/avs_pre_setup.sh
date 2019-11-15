@@ -68,12 +68,15 @@ make
 pip install commentjson
 
 #grab sdk
+wget https://avs-smart-screen-sdk-workshop.github.io/setup_files/avs_device_sdk_115_patch_raspbian_buster.txt -O ~/Downloads/avs_device_sdk_115_patch_raspbian_buster.txt
 cd /home/pi/sdk-folder/sdk-source
 git clone --single-branch --branch v1.15 git://github.com/alexa/avs-device-sdk.git
+cd avs-device-sdk
+patch -p1 < ~/Documents/avs_device_sdk_115_patch_raspbian_buster.txt
 
 #get Smart Screen SDK
 cd /home/pi/sdk-folder
-unzip ~/Documents/ss-sdk-source_11019_with_CR-15234467_patch_and_buster_patch.tar.gz
+tar xzf ~/Documents/ss-sdk-source_11019_with_CR-15234467_patch_and_buster_patch.tar.gz
 
 #get APL core
 cd /home/pi/sdk-folder
