@@ -17,7 +17,7 @@ Try the following interactions, and note how the screen allows for Alexa to prov
 
 * Say "Alexa", then ask "What's the weather in Las Vegas?"  Note how instead of just hearing today's weather over the speaker, you also get a 5 day forecast visually as a bonus!
 
-* Say "Alexa", then say "Play Katy Perry on TuneIn."  You get album art and transport controls (try clicking "next" or "pause")!
+* Say "Alexa", then say "Play dance music on iHeartRadio."  You get album art and transport controls (try clicking "next" or "pause")!
 
 * Say "Alexa", then say "Add Milk, Eggs, Bread and Orange Juice to my shopping list."  You get a visual confirmation of how your list is shaping up, and if you fill up your list you can browse by using the scroll wheel (or if you had a touchscreen, a swipe)
 
