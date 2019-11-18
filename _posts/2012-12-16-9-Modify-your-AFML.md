@@ -1,5 +1,5 @@
 ---
-title: '8. Customize your Renderer'
+title: '7. Customize your Renderer'
 
 
 layout: nil
