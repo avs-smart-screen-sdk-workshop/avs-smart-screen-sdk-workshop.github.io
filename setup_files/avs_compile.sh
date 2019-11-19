@@ -31,7 +31,7 @@ cmake /home/pi/sdk-folder/sdk-source/avs-device-sdk \
 -DCMAKE_INSTALL_PREFIX=/home/pi/sdk-folder/sdk-install
 make install -j2
 
-# compile smart screen sdk
+#build medici
 cd /home/pi/sdk-folder/ss-build
 cmake -DCMAKE_PREFIX_PATH=$HOME/sdk-folder/sdk-install \
 -DWEBSOCKETPP_INCLUDE_DIR=$HOME/sdk-folder/third-party/websocketpp-0.8.1 \
@@ -48,6 +48,6 @@ cmake -DCMAKE_PREFIX_PATH=$HOME/sdk-folder/sdk-install \
 -DAPLCORE_LIB_DIR=$HOME/sdk-folder/apl-core-library/build/aplcore \
 -DYOGA_INCLUDE_DIR=$HOME/sdk-folder/apl-core-library/build/yoga-prefix/src/yoga \
 -DYOGA_LIB_DIR=$HOME/sdk-folder/apl-core-library/build/lib \
- ../Alexa-smart-screen-sdk-for-linux
+ ../alexa-smart-screen-sdk
 make -j2
 

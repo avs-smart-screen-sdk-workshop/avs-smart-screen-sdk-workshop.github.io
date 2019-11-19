@@ -1,0 +1,34 @@
+diff --git a/modules/Alexa/SampleApp/src/CMakeLists.txt b/modules/Alexa/SampleApp/src/CMakeLists.txt
+index 9498e5f..44612ae 100644
+--- a/modules/Alexa/SampleApp/src/CMakeLists.txt
++++ b/modules/Alexa/SampleApp/src/CMakeLists.txt
+@@ -67,6 +67,10 @@ if (PCC)
+     target_link_libraries(SampleApp AVSCommon)
+ endif()
+ 
++if (${CMAKE_SYSTEM_NAME} MATCHES "Linux")
++    target_link_libraries(SampleApp atomic)
++endif()
++
+ if (ANDROID)
+     target_include_directories(SampleApp PUBLIC "${AndroidUtilities}/include")
+     target_link_libraries(SampleApp AndroidUtilities)
+@@ -161,4 +165,4 @@ if(APL_CORE)
+     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-error -Wno-reorder")
+ 
+     add_definitions(-DAPL_CORE)
+-endif()
+\ No newline at end of file
++endif()
+diff --git a/modules/Alexa/tools/Testing.cmake b/modules/Alexa/tools/Testing.cmake
+index 72704ba..293b5f8 100644
+--- a/modules/Alexa/tools/Testing.cmake
++++ b/modules/Alexa/tools/Testing.cmake
+@@ -34,6 +34,7 @@ macro(discover_unit_tests includes libraries)
+                 target_link_libraries(${testname} "-rpath ${ASDK_LIBRARY_DIRS}")
+             elseif(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
+                 target_link_libraries(${testname} "-Wl,-rpath,${ASDK_LIBRARY_DIRS}")
++                target_link_libraries(${testname} atomic)
+             endif()
+ 
+             configure_test_command(${testname} "${inputs}" ${testsourcefile})
