@@ -15,7 +15,7 @@ Attention states are ways to indicate to customers when your device has detected
 2) Go to your terminal window. Type the following commands to patch the AVS SDK to enable the wakeword confirmation sound by default:
 
 ```
-patch -p1 <~/home/pi/Documents/avs_device_sdk_115_patch_enable_wakeword_confirmation_by_default.txt
+patch -p1 -d /home/pi/sdk-folder/sdk-source/avs-device-sdk < /home/pi/Documents/avs_device_sdk_115_patch_enable_attention_state_sounds_by_default.txt
 ```
 
 The contents of the patch will modify two files used to control the default settings of the AVS SDK:

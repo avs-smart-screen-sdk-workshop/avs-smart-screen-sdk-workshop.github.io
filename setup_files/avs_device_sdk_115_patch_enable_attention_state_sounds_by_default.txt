@@ -1,0 +1,26 @@
+diff --git a/Settings/include/Settings/SpeechConfirmationSettingType.h b/Settings/include/Settings/SpeechConfirmationSettingType.h
+index a087c7f..fb6d0f8 100644
+--- a/Settings/include/Settings/SpeechConfirmationSettingType.h
++++ b/Settings/include/Settings/SpeechConfirmationSettingType.h
+@@ -40,7 +40,7 @@ enum class SpeechConfirmationSettingType {
+  * @return The default value speech confirmations setting.
+  */
+ inline SpeechConfirmationSettingType getSpeechConfirmationDefault() {
+-    return SpeechConfirmationSettingType::NONE;
++    return SpeechConfirmationSettingType::TONE;
+ }
+ 
+ /**
+diff --git a/Settings/include/Settings/WakeWordConfirmationSettingType.h b/Settings/include/Settings/WakeWordConfirmationSettingType.h
+index ce1f800..68cc3c7 100644
+--- a/Settings/include/Settings/WakeWordConfirmationSettingType.h
++++ b/Settings/include/Settings/WakeWordConfirmationSettingType.h
+@@ -40,7 +40,7 @@ enum class WakeWordConfirmationSettingType {
+  * @return The default value wake word confirmations setting.
+  */
+ inline WakeWordConfirmationSettingType getWakeWordConfirmationDefault() {
+-    return WakeWordConfirmationSettingType::NONE;
++    return WakeWordConfirmationSettingType::TONE;
+ }
+ 
+ /**
