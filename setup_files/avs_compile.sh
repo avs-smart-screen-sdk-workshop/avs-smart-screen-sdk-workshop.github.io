@@ -31,7 +31,7 @@ cmake /home/pi/sdk-folder/sdk-source/avs-device-sdk \
 -DCMAKE_INSTALL_PREFIX=/home/pi/sdk-folder/sdk-install
 make install -j2
 
-#build medici
+#compile smart screen sdk
 cd /home/pi/sdk-folder/ss-build
 cmake -DCMAKE_PREFIX_PATH=$HOME/sdk-folder/sdk-install \
 -DWEBSOCKETPP_INCLUDE_DIR=$HOME/sdk-folder/third-party/websocketpp-0.8.1 \
