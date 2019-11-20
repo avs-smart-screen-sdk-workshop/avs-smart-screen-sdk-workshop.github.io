@@ -62,6 +62,7 @@ rm -f /home/pi/sdk-folder/application-necessities/deviceSettings.db
 ```
 
 4) Start the Smart screen SDK process and then the browser.
+
 5) These are of course hard-coded settings. Wouldn't it be nice to use a skill or a visual UI interface to change the attention state sound settings? We look forward to what you can come up with. Send us your patch via a pull request:
 
 [https://github.com/avs-smart-screen-sdk-workshop/avs-smart-screen-sdk-workshop.github.io](https://github.com/avs-smart-screen-sdk-workshop/avs-smart-screen-sdk-workshop.github.io)
