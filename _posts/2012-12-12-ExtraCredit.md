@@ -18,7 +18,7 @@ sudo init 3
 
 Once you see a black screen with a blinking cursor, press **Crtl-Alt-F1** to go to an actve terminal window.
 
-2) Type the following commands to patch the AVS SDK to enable the wakeword confirmation sound by default:
+2) Type the following commands to patch the AVS SDK to enable the attention state sounds by default:
 
 ```
 patch -p1 -d /home/pi/sdk-folder/sdk-source/avs-device-sdk < /home/pi/Documents/avs_device_sdk_115_patch_enable_attention_state_sounds_by_default.txt
