@@ -73,10 +73,12 @@ Re-generate the SDK configuration with this command:
 bash /home/pi/avs_install.sh
 ```
 
+Note: Disregard failures that indicate the alexa-rpi directory already exists.
+
 4) Return to the GUI mode by typing the following command:
 
 ```
-init 5
+sudo init 5
 ```
 
 Now, start the Smart screen SDK process and then the browser, and test your changes with a few utterances! You should hear the wakeword confirmation sound and the Thinking sound.
