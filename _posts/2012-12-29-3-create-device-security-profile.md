@@ -9,13 +9,9 @@ layout: nil
 
 After you've created an Amazon developer account, you'll need to create a product and security profile. This will enable your software client to connect to AVS.
 
-Log in to [developer.amazon.com](https://developer.amazon.com/login.html).  You should be in the Dashboard by default - click the **Alexa** button on the screen, then **Build Alexa Devices** and then finally **AVS Console**. the global navigation to start building products with Alexa built-in.  
+Confirm you are logged in to [developer.amazon.com](https://developer.amazon.com/login.html).  You should be in the Dashboard by default - click the **Alexa** button on the top menu, then **Alexa Voice Service**. This should take you to the *Alexa Voice Service Developer Console* and you should screen like below. 
 
-![code](../assets/1-devportal-landing.png)
-
-![code](../assets/1-devportal-buildalexadevices.png)
-
-![code](../assets/1-devportal-avsconsole.png)
+![code](../assets/1-avs-console.png)
 
 If you are having trouble, try this direct link:  [https://developer.amazon.com/alexa/console/avs/welcome](https://developer.amazon.com/alexa/console/avs/welcome)
 
