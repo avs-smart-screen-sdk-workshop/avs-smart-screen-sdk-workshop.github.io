@@ -26,4 +26,4 @@ EOF
 #create alsa config
 configure_sound
 
-PA_ALSA_PLUGHW=1 /home/pi/sdk-folder/ss-build/modules/Alexa/SampleApp/src/SampleApp -C /home/pi/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json -C /home/pi/sdk-folder/Alexa-smart-screen-sdk-for-linux/modules/GUI/config/SmartScreenSDKConfig.json -K /home/pi/sdk-folder/third-party/alexa-rpi/models -L INFO
+PA_ALSA_PLUGHW=1 /home/pi/sdk-folder/ss-build/modules/Alexa/SampleApp/src/SampleApp -C /home/pi/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json -C /home/pi/sdk-folder/alexa-smart-screen-sdk/modules/GUI/config/SmartScreenSDKConfig.json -K /home/pi/sdk-folder/third-party/alexa-rpi/models -L INFO

@@ -27,7 +27,7 @@ This will kick off the installation process which could normally take over one h
 
 Once the installation is complete, you should see a success message on the terminal: "Installation completed". 
 
-If you need to recompile the sdk at some point post-workshop due to an update or manual modification, you should close any other processes like browsers on the pi as memory consumption during the compilation process is high. Compiling the SDK in non-GUI mode (**Shell/Terminal command: runlevel 3**) will help free up memory to compilation can happen more reliably and quickly. If your device freezes up - don't worry, just restart by unplugging your Pi's power cord.
+If you need to recompile the sdk at some point post-workshop due to an update or manual modification, you should close any other processes like browsers on the pi as memory consumption during the compilation process is high. Compiling the SDK in non-GUI mode (**Shell/Terminal command: sudo init 3**, then Crtl-Alt-F1 to go to an active terminal window) will help free up memory to compilation can happen more reliably and quickly. If your device freezes up - don't worry, just restart by unplugging your Pi's power cord.
 
 
 Next we will launch the sample app and get a refresh token from AVS so your device can authenticate with the cloud via Login With Amazon (LWA).  

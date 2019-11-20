@@ -10,9 +10,15 @@ Finished early? Or want to learn more? Here are some additional projects you can
 
 Attention states are ways to indicate to customers when your device has detected the wakeword, Alexa is busy thinking, etc. They can be auditory or visual. Let's start by enabling the wakeword confirmation sound when your device has detected the wakeword and when Alexa goes into the Thinking state: 
 
-1) Shut down the AVS smart screen SDK process running in the terminal window.
+1) Shut down the AVS smart screen SDK process running in the terminal window and close the browser window. Type the following command in the terminal window to enter the command line mode only to have enough memory to compile the AVS SDK:
 
-2) Go to your terminal window. Type the following commands to patch the AVS SDK to enable the wakeword confirmation sound by default:
+```
+sudo init 3
+```
+
+Once you see a black screen with a blinking cursor, press **Crtl-Alt-F1** to go to an actve terminal window.
+
+2) Type the following commands to patch the AVS SDK to enable the wakeword confirmation sound by default:
 
 ```
 patch -p1 -d /home/pi/sdk-folder/sdk-source/avs-device-sdk < /home/pi/Documents/avs_device_sdk_115_patch_enable_attention_state_sounds_by_default.txt
@@ -61,7 +67,19 @@ Once this is done and no errors are seen, delete the old device settings storage
 rm -f /home/pi/sdk-folder/application-necessities/deviceSettings.db
 ```
 
-4) Start the Smart screen SDK process and then the browser.
+Re-generate the SDK configuration with this command:
+
+```
+bash /home/pi/avs_install.sh
+```
+
+4) Return to the GUI mode by typing the following command:
+
+```
+init 5
+```
+
+Now, start the Smart screen SDK process and then the browser, and test your changes with a few utterances! You should hear the wakeword confirmation sound and the Thinking sound.
 
 5) These are of course hard-coded settings. Wouldn't it be nice to use a skill or a visual UI interface to change the attention state sound settings? We look forward to what you can come up with. Send us your patch via a pull request:
 
