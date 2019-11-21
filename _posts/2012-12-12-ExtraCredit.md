@@ -10,7 +10,7 @@ Finished early? Or want to learn more? Here are some additional projects you can
 
 Attention states are ways to indicate to customers when your device has detected the wakeword, Alexa is busy thinking, etc. They can be auditory or visual. Let's start by enabling the wakeword confirmation sound when your device has detected the wakeword and when Alexa goes into the Thinking state: 
 
-1) Shut down the AVS smart screen SDK process running in the terminal window and close the browser window. Type the following command in the terminal window to enter the command line mode only to have enough memory to compile the AVS SDK:
+1) Shut down the AVS smart screen SDK process running in the terminal window and close the browser window. You'll want to open this guide on your laptop so you can follow directions. Type the following command in the terminal window to enter the command line mode only to have enough memory to compile the AVS SDK:
 
 ```
 sudo init 3
