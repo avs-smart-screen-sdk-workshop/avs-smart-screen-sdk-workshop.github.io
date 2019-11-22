@@ -28,7 +28,9 @@ Your raspberry pi is now ready to use the sample app. The next time you start th
 
 Now, since we are building the Smart Screen SDK, you'll need to open a browser to use the visual interface for your prototype.  Open the Chromium browser and then navigate to the following URL: 
 
-`[file:///home/pi/sdk-folder/ss-build/modules/GUI/index.html?insecure=1](file:///home/pi/sdk-folder/ss-build/modules/GUI/index.html?insecure=1)`
+`
+[file:///home/pi/sdk-folder/ss-build/modules/GUI/index.html?insecure=1](file:///home/pi/sdk-folder/ss-build/modules/GUI/index.html?insecure=1)
+`
 
 Note, this should autocomplete in your browser when you start typing - it's also in the bookmarks as "Alexa Home Screen".
 
