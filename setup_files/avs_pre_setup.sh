@@ -36,8 +36,8 @@ wget -c https://github.com/Kitware/CMake/releases/download/v3.15.4/cmake-3.15.4.
 cd /home/pi/sdk-folder/third-party
 tar xzf ~/Downloads/cmake-3.15.4.tar.gz
 cd cmake-3.15.4
-sudo ./bootstrap
-sudo make
+./bootstrap
+make
 sudo make install
 
 #add websocket
@@ -94,3 +94,11 @@ cd /home/pi
 wget https://avs-smart-screen-sdk-workshop.github.io/setup_files/avs_install.sh
 wget https://avs-smart-screen-sdk-workshop.github.io/setup_files/avs_run.sh
 chmod u+x avs_install.sh avs_run.sh
+
+#adjust default volume level
+sudo amixer cset numid=1 95%
+
+#get desktop default image
+cd /home/pi/Pictures
+wget https://avs-smart-screen-sdk-workshop.github.io/setup_files/build_avs_desktop.png
+pcmanfm --set-wallpaper /home/pi/Pictures/build_avs_desktop.png

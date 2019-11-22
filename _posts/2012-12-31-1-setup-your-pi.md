@@ -14,7 +14,7 @@ Let's begin by setting up the Pi. The Raspberry Pi 3 board includes:
 - Micro SD card slot
 - Ethernet port
 
-We have include extra components with your Pi, including a breadboard and other electronic components. **You do not need to assemble these components for this workshop.** We have included references to how you may use these components in the Extra Credits section of this guide, at the very end.
+We have include extra components with your Pi, including a breadboard and other electronic components. **You do not need to assemble these components for this workshop.** We have included references to how you may use these components in the Extra Credit section of this guide, at the very end.
 
 {:.steps}
 ### Assembling Your Pi
