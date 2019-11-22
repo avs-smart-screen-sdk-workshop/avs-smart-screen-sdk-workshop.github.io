@@ -20,6 +20,21 @@ configure_sound() {
        slave.pcm "hw:1,0"
      }
   }
+
+pcm.output {
+	type hw
+	card 0
+}
+
+ctl.!default {
+	type hw
+	card 0
+}
+
+pcm.input {
+	type hw
+	card 0
+}
 EOF
 }
 
