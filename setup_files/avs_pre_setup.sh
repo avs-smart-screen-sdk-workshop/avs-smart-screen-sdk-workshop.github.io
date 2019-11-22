@@ -67,17 +67,23 @@ make
 #json comment extractor
 pip install commentjson
 
-#grab sdk
+#grab and patch AVS SDK
+cd /home/pi/Documents
+wget https://avs-smart-screen-sdk-workshop.github.io/setup_files/avs_device_sdk_115_patch_raspbian_buster.txt
 cd /home/pi/sdk-folder/sdk-source
 git clone --single-branch --branch v1.15 git://github.com/alexa/avs-device-sdk.git
 cd avs-device-sdk
 patch -p1 < ~/Documents/avs_device_sdk_115_patch_raspbian_buster.txt
 
-#get Smart Screen SDK
+#get and patch AVS Smart Screen SDK
+cd /home/pi/Documents
+wget https://avs-smart-screen-sdk-workshop.github.io/setup_files/avs_smart_screen_sdk_20_raspbian_buster_patch.txt
+wget https://avs-smart-screen-sdk-workshop.github.io/setup_files/avs_smart_screen_sdk_20_config_wakeword.txt
 cd /home/pi/sdk-folder
 glit clone https://github.com/alexa/alexa-smart-screen-sdk.git
 cd alexa-smart-screen-sdk
 patch -p1 < ~/Documents/avs_smart_screen_sdk_20_raspbian_buster_patch.txt
+patch -p1 <~/Documents/avs_smart_screen_sdk_20_config_wakeword.txt
 
 #get APL core
 cd /home/pi/sdk-folder

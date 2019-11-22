@@ -1,0 +1,20 @@
+diff --git a/modules/GUI/config/SmartScreenSDKConfig.json b/modules/GUI/config/SmartScreenSDKConfig.json
+index 1ffc92e..1c9681b 100644
+--- a/modules/GUI/config/SmartScreenSDKConfig.json
++++ b/modules/GUI/config/SmartScreenSDKConfig.json
+@@ -22,7 +22,7 @@
+       "mode": "TV",
+       "emulateDisplayDimensions": true,
+       "scaleToFill": true,
+-      "audioInputInitiator": "PRESS_AND_HOLD",
++      "audioInputInitiator": "WAKEWORD",
+       "windows": [
+         {
+           "id": "tvFullscreen",
+@@ -198,4 +198,4 @@
+       }
+     ]
+   }
+-}
+\ No newline at end of file
++}
