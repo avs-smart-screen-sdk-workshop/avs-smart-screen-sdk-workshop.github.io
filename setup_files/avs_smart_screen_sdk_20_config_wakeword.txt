@@ -1,8 +1,13 @@
 diff --git a/modules/GUI/config/SmartScreenSDKConfig.json b/modules/GUI/config/SmartScreenSDKConfig.json
-index 1ffc92e..1c9681b 100644
+index 1ffc92e..21c0b11 100644
 --- a/modules/GUI/config/SmartScreenSDKConfig.json
 +++ b/modules/GUI/config/SmartScreenSDKConfig.json
-@@ -22,7 +22,7 @@
+@@ -18,11 +18,11 @@
+   },
+   "gui": {
+     "appConfig": {
+-      "description": "TV PTT Device - Fullscreen + Lower Third Panel",
++      "description": "TV Wakeword Enabled Device - Fullscreen + Lower Third Panel",
        "mode": "TV",
        "emulateDisplayDimensions": true,
        "scaleToFill": true,
