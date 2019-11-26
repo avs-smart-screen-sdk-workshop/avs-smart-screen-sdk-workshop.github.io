@@ -13,17 +13,17 @@ With a text editor (Geany works fine), open up the file **/home/pi/avs_run.sh**
 
 On the last line you'll see that we have a few parameters we launch with. Let's go over these.
 
-*PA_ALSA_PLUGHW=1* - this is specific to the Raspberry Pi, it has to do with Alsa and the Raspberry Pi audio.
+**PA_ALSA_PLUGHW=1** - this is specific to the Raspberry Pi, it has to do with Alsa and the Raspberry Pi audio.
 
-*/home/pi/sdk-folder/ss-build/modules/Alexa/SampleApp/src/SampleApp* - launches our Sample App executable
+**/home/pi/sdk-folder/ss-build/modules/Alexa/SampleApp/src/SampleApp** - launches our Sample App executable
 
-*-C /home/pi/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json* - specifies a configuration of our Alexa Client, such as our device security *rofile, device ID, etc 
+**-C /home/pi/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json** - specifies a configuration of our Alexa Client, such as our device security *rofile, device ID, etc 
 
-*-C /home/pi/sdk-folder/alexa-smart-screen-sdk/modules/GUI/config/SmartScreenSDKConfig.json* - specifies the configuration specific to our Smart Screen SDK 
+**-C /home/pi/sdk-folder/alexa-smart-screen-sdk/modules/GUI/config/SmartScreenSDKConfig.json** - specifies the configuration specific to our Smart Screen SDK 
 
-*-K /home/pi/sdk-folder/third-party/alexa-rpi/models* - This is the model used by the Sensory wake word engine 
+**-K /home/pi/sdk-folder/third-party/alexa-rpi/models** - This is the model used by the Sensory wake word engine 
 
-*-L INFO* - Debug threshold level. DEBUG9 is the most verbose
+**-L INFO** - Debug threshold level. DEBUG9 is the most verbose
 
 In order to use another configuration, we need to add an additional -C parameter after the SmartScreenSDKConfig.json referecing the file location of the desired file. So if we wanted to try out the Smart Screen Large Landscape using Push To Talk, add the following parameter:
 
