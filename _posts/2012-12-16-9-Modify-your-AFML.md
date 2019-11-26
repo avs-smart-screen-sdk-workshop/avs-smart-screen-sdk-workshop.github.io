@@ -31,7 +31,12 @@ In order to use another configuration, we need to add an additional -C parameter
 
 So the entire path would be:
 
-`PA_ALSA_PLUGHW=1 /home/pi/sdk-folder/ss-build/modules/Alexa/SampleApp/src/SampleApp -C /home/pi/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json -C /home/pi/sdk-folder/alexa-smart-screen-sdk/modules/GUI/config/SmartScreenSDKConfig.json -C /home/pi/sdk-folder/alexa-smart-screen-sdk/modules/GUI/config/guiConfigSamples/GuiConfigSample_SmartScreenLargeLandscape.json -K /home/pi/sdk-folder/third-party/alexa-rpi/models -L INFO`
+`PA_ALSA_PLUGHW=1 \
+/home/pi/sdk-folder/ss-build/modules/Alexa/SampleApp/src/SampleApp \
+-C /home/pi/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json \
+-C /home/pi/sdk-folder/alexa-smart-screen-sdk/modules/GUI/config/SmartScreenSDKConfig.json \
+-C /home/pi/sdk-folder/alexa-smart-screen-sdk/modules/GUI/config/guiConfigSamples/GuiConfigSample_SmartScreenLargeLandscape.json \
+-K /home/pi/sdk-folder/third-party/alexa-rpi/models -L INFO`
 
 Now just simply re-run your `avs-run.sh` command and your new configuration should be in place! If you want to update this configuration to use the wake word, you can update the `GuiConfigSample_SmartScreenLargeLandscape.json` file, look for:
 
