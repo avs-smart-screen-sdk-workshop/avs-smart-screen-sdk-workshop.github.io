@@ -45,7 +45,7 @@ If you're a returning developer that has already created products in your dashbo
 
 	 **Security Profile ID** will be generated for you.
 
-3. Select **Other devices and platforms** from the *Web - Android/Kindle - iOS - Other devices and platforms* options in the **Platform Information** section.
+3. Select **Other devices and platforms** from the *Web - Android/Kindle - iOS - Other devices and platforms* options in the **Platform Information** section (You may need to scroll down to see this).
 
 ![platforms](../assets/1-otherdevicesplatforms-fixed.png)
 
