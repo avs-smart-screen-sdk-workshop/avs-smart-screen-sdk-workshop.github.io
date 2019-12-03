@@ -10,7 +10,7 @@ Finished early? Or want to learn more? Here are some additional projects you can
 
 Attention states are ways to indicate to customers when your device has detected the wakeword, Alexa is busy thinking, etc. They can be auditory or visual. Let's start by enabling the wakeword confirmation sound when your device has detected the wakeword and when Alexa goes into the Thinking state: 
 
-1) Shut down the AVS smart screen SDK process running in the terminal window and close the browser window. You'll want to open this guide on your laptop so you can follow directions. Type the following command in the terminal window to enter the command line mode only to have enough memory to compile the AVS SDK:
+1) **You'll want to open this guide on your laptop so you can follow directions from this point.** Shut down the AVS smart screen SDK process running in the terminal window and close the browser window. Type the following command in the terminal window to enter the command line mode only to have enough memory to compile the AVS SDK:
 
 ```
 sudo init 3
@@ -89,9 +89,11 @@ Now, start the Smart screen SDK process and then the browser, and test your chan
 
 ### Create a Skill and control the state of LED lights and sample the state of a switch with AWS IoT
 
-Did you notice we gave you a breadboard and electronic components along with your Pi? This is a workshop segement from re:MARS that you can follow that will enable you to use these components and control them using a Skill.
+Did you notice we gave you a breadboard and electronic components along with your Pi? This is a workshop segement from re:MARS that you can follow that will enable you to use these components and control them using a Skill:
 
 [https://avs-dvk-workshop.github.io/#/8-custom-skill](https://avs-dvk-workshop.github.io/#/8-custom-skill)
+
+Note that the instructions in this guide will need to be slightly tweaked to work with the Smart Screen SDK.
 
 ### Add attention state visuals with LED lights
 
@@ -99,6 +101,7 @@ Here is another way to use the electronic components in your kit. This guide wil
 
 [https://developer.amazon.com/docs/alexa-voice-service/indicate-device-state-with-leds.html](https://developer.amazon.com/docs/alexa-voice-service/indicate-device-state-with-leds.html)
 
+Note that the instructions in this guide will need to be slightly tweaked to work with the Smart Screen SDK.
 
 ### Build an APL (Alexa Presentation Language skill)
 
