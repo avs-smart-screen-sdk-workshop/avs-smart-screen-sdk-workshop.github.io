@@ -104,7 +104,7 @@ Here is another way to use the electronic components in your kit. This guide wil
 
 Interested in learning more about the Alexa Presentation Language? Take our Cake Walk tutorial class to learn about the fundamentals of APL and get hands-on with your very own APL skill. 
 
-[Alexa.design/apl-cake-walk](Alexa.design/apl-cake-walk)
+[https://alexa.design/apl-cake-walk](Alexa.design/apl-cake-walk)
 
 Already experienced with APL and want to get really deep? Check out our Space Explorer skill for high quality visuals and information about our solar system. This skill features APL video, SVG graphics, and animations!
 
