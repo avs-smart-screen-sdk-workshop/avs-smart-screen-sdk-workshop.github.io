@@ -47,3 +47,5 @@ cat /home/pi/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json.tmp >> /
 #Delete temp file
 rm /home/pi/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json.tmp
 
+echo Installation completed.
+
