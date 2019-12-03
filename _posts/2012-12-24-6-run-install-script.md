@@ -15,9 +15,11 @@ To run the install script, open a **terminal** by clicking on the console window
 
 ```
 wget https://avs-smart-screen-sdk-workshop.github.io/setup_files/avs_install.sh -O /home/pi/avs_install.sh
-bash /home/pi/avs_install.sh
 ```
 
+```
+bash /home/pi/avs_install.sh
+```
 
 ![run_script](../assets/configTerm.png)
 
