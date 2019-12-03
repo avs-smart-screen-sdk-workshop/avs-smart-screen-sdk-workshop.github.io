@@ -5,6 +5,8 @@
 #install sensory
 cd /home/pi/sdk-folder/third-party
 git clone git://github.com/Sensory/alexa-rpi.git
+cd alexa-rpi
+git checkout 9d691d031abab261afd0348c532f5489a368cac8
 
 #update sensory license
 cd /home/pi/sdk-folder/third-party/alexa-rpi/bin/
